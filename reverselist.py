@@ -1,3 +1,3 @@
-L = [5,10,13,23,35] 
+L =input("enter your list:")
 M=L[::-1]
 print(M)
