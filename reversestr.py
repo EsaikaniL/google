@@ -3,6 +3,6 @@ def reverse(k):
   for x in k:
     str = x + str
   return str
-k = "we are guvi students"
+k =input("enter your string")
 print (k)
 print (reverse(k))
