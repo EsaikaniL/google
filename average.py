@@ -1,9 +1,11 @@
-a=int(input("Enter number:"))
-b=int(input("Enter number:"))
-c=int(input("Enter number:"))
-d=int(input("Enter number:"))
-e=int(input("Enter number:"))
-n=a+b+c+d+e
-print(n)
-z=n/5
-print(z)
+k=int(input("enter your num:"))
+l=[]
+for i in range(k):
+  a=int(input("enter your num:"))
+  l.append(a)
+  print(l)
+total=sum(l)
+print(total)
+avg=total/k
+print("avg is",avg)
+
