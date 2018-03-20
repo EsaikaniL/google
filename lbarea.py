@@ -1,4 +1,2 @@
-x=float(input("Enter Value 1:"))
-y=float(input("Enter Value 2:"))
-area=x*y
-print(round(area,5))
+x,y=map(float,input("Enter two value").split(' '))
+print("%.5f "%(x*y))
