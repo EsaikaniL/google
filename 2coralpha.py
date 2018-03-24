@@ -1,0 +1,3 @@
+f=['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
+k=int(input("enter your choice:"))
+print(f[k-1])
