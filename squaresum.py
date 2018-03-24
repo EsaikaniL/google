@@ -1,5 +1,5 @@
-l =list( map(int,input("Please Enter any Number: ")))
-s= 0
+l=list(map(int,input(" Enter any Number:")))
+s=0
 for i in l:
-    s+=i**2
+    s=s+i**2
 print(s)
