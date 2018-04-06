@@ -5,7 +5,7 @@ for i in n:
     d=d+int(i)
 print(d)
 if(d%2==0):
-  print("yes")
+  print("E")
 else:
-  print("no")
+  print("O")
 
