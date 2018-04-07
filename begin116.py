@@ -1,2 +1,3 @@
-l=list(map(int,input("enter your choice:").split(' ')))
-print("".join(str(x) for x in l))
+k=input("enter your choice:")
+j=input("enter your choice:")
+print(k+j)
