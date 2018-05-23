@@ -1,5 +1,3 @@
-a=int(input("enter ur value:"))
-b=int(input("enter ur value:"))
-x=int(input("enter ur value:"))
+a,b,x=map(int,input("enter ur value:").split(" "))
 y=(a*x)+b
 print(y)
