@@ -1,11 +1,7 @@
-num=int(input("Enter a number "))
-if(num>1):
-  for i in range(2,num):
-    if (num % i) == 0:
-      print(num,"is not a prime number")
-      print(i,"is a factor of ",num)
-      break
-    else:
-      print(num,"is a prime number")
+n=int(input("Enter a number "))
+for i in range(2,n):
+  if((n%i)==0):
+    print('no')      
+    break
 else:
-   	print(num,"is not a prime number")
+  print('yes')
