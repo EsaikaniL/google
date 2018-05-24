@@ -1,9 +1,7 @@
-def fact(v):
-  if(v>1):
-    for i in range(2,v):
-      if((v%i)==0):
-        return "no"
-  return "yes"
-  return "no"
-v=int(input("Enter value:"))
-print(fact(v))
+h=int(input("Enter a number "))
+for i in range(2,h):
+  if((h%i)==0):
+    print('no')      
+    break
+else:
+  print('yes')
